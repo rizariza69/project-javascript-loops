@@ -31,6 +31,18 @@ for (let i = 0; i < 5; i++) {
   let counter = ''
   for (let j = 0; j < 5; j++) {
     counter += '*'
+    // console.log(counter)
   }
   console.log(counter)
+}
+
+//bintang
+
+for (let i = 0; i < 5; i++) {
+  let counter = ''
+  for (let j = 5; j > i; j--) {
+    counter += '*'
+
+  }
+  console.log(counter);
 }
